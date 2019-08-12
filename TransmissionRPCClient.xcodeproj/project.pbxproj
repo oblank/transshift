@@ -683,11 +683,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Alexey Chechetkin";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					2C5810D51B39A5E50069020D = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = FGPFWZ8YAM;
+						DevelopmentTeam = 3V5Z57RWTH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -705,6 +705,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				ru,
@@ -909,8 +910,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alexey Chechetkin (FGPFWZ8YAM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alexey Chechetkin (FGPFWZ8YAM)";
+				CODE_SIGN_IDENTITY = "Ad Hoc Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Ad Hoc Code Sign";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -964,8 +965,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Alexey Chechetkin (FGPFWZ8YAM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alexey Chechetkin (FGPFWZ8YAM)";
+				CODE_SIGN_IDENTITY = "Ad Hoc Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Ad Hoc Code Sign";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -993,11 +994,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = FGPFWZ8YAM;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V5Z57RWTH;
 				INFOPLIST_FILE = TransmissionRPCClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alcheck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testoblA.Transmission;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1012,11 +1014,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = FGPFWZ8YAM;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3V5Z57RWTH;
 				INFOPLIST_FILE = TransmissionRPCClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alcheck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testoblA.Transmission;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1034,7 +1037,7 @@
 				2C5810F21B39A5E50069020D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2C5810F31B39A5E50069020D /* Build configuration list for PBXNativeTarget "TransmissionRPCClient" */ = {
 			isa = XCConfigurationList;
@@ -1043,7 +1046,7 @@
 				2C5810F51B39A5E50069020D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
